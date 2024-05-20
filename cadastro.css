@@ -1,0 +1,76 @@
+body{
+    font-family: arial, sans-serif;
+    margin: 100;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+        background-image: url('horizonte.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+}
+
+#divlogin {
+    
+    height: 50%;
+    text-align: center;
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    text-align: center;
+
+}
+
+
+h3{
+    font-weight: 500;
+    text-align: center;
+}
+
+.grupoimput {
+    margin-bottom: 15px;
+}
+
+.grupoimput label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.grupoimput input {
+    width: 270px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+a{
+    font-size: 13px;
+    padding: 2px;
+    margin: 5px;
+}
+
+a:hover{
+    color: #BE1A14; 
+}
+
+#BotaoAcessar{
+        width: 100%;
+        padding: 10px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    
+    #BotaoAcessar:hover {
+        background-color: #0056b3;
+    }
+
